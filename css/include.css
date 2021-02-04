@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+	width:100%;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+}
+#header h1{
+	position: absolute;
+	top:20%;
+	left: 10%;
+}
+#header h1 a{}
+#header h1 img{display: block;}
+
+.gnb{
+	display: inline-block;
+	font-weight: 300;
+}
+.gnb li{
+	margin-right:40px;
+	float: left;
+}
+.gnb li a{
+	font-size: 20px;
+}
+
+.lnb{
+	position: absolute;
+	top: 5%;
+	right:10%;
+	font-weight: 300;
+}
+.lnb li{
+	margin-right: 20px;
+	float: left;
+}
+.lnb li:last-child{margin-right: 40px;}
+.lnb li a{font-size: 14px;}
+
+/*푸터*/
+#footer{
+	font-size: 13px;
+	color:#666;
+	position: relative;
+	font-weight: 300;
+	padding:10px 0;
+}
+
+.productInfo{
+	float: left;
+}
+.productInfo h4{
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.productInfo ul{}
+.productInfo ul li{
+	float: left;
+	margin-bottom: 10px;
+}
+.productInfo ul li::after{
+	content: "";
+	display: inline-block;
+	width:1px;
+	height: 13px;
+	background: #000;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.productInfo ul li:last-child::after{
+	display: none;
+}
+.productInfo span{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.productInfo p{
+	margin-bottom: 10px;
+}
+
+.fRight{
+	float: right;
+}
+
+.asInfo{
+	float: left;
+}
+.asInfo::before{
+	position: absolute;
+	background: #ee7302;
+	content: "";
+	display: inline-block;
+	width:1px;
+	height: 150px;
+}
+.asInfo h4{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.asInfo span{
+	color: #ee7302;
+	font-size:25px;
+	margin-bottom: 10px;
+	display: block;
+}
+.asInfo p{
+	margin-bottom: 10px;
+}
+
+.fLogo{
+	float: right;
+	margin:0 50px;
+}
+.fLogo a{}
+.fLogo img{
+	display: block;
+}
+
+
+
+
+
